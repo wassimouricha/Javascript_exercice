@@ -63,3 +63,66 @@ function triangle() {
 triangle();
 
 //exercice 8
+let tab = [71 ,"test" ,355 ,24 ,"six" ,"mehdi"];
+let spl = tab[2];
+
+console.log(spl)
+
+//exercice 9
+
+let b = 10;
+let f = 200;
+sum = b + f;
+
+function comparaison() {
+    if (sum < 100) {
+    return "C'est inférieur";
+    } else {
+    return "C'est supérieur";
+    }
+};
+console.log(comparaison());
+
+//exercice 12
+
+let heure = 1;
+let heureu = 5
+
+function convertus(x) {
+    return x * 3600
+    ;
+};
+
+
+console.log(convertus(heure));
+console.log(convertus(heureu));
+
+//exercie 13
+
+
+som = -1;
+
+function comparus() {
+    if (som <= 0) {
+    return "true";
+    } else {
+    return "false";
+    }
+};
+console.log(comparus());
+
+
+//exercice 14
+
+
+function isEqual(x,y) {
+    if  (x===y){
+        //=== verfications booléens
+    return true;
+    } else {
+    return false;
+    }
+};
+console.log(isEqual(3,6));
+console.log(isEqual(1,'1'));
+console.log(isEqual(1,1));
