@@ -126,3 +126,72 @@ function isEqual(x,y) {
 console.log(isEqual(3,6));
 console.log(isEqual(1,'1'));
 console.log(isEqual(1,1));
+
+
+//exercice 15
+
+function divis(x) {
+    if  (x % 5 == 0){
+        
+    return true;
+    } else {
+    return false;
+    }
+};
+console.log(divis(3));
+console.log(divis(10));
+console.log(divis(1));
+
+//exercice 16
+
+function entier(h,m){
+    return h * 3600 + m * 60 ;
+}
+
+console.log(entier(30,25));
+
+//exercice 17
+
+function  inverserTableau (tableau) {
+    let nouveauTab =[];
+    tableau.forEach(valeur => 
+    {
+        nouveauTab.unshift(valeur);
+    })
+    return nouveauTab;
+}
+
+console.log(inverserTableau([1,2,3,5]));
+
+//exercice 18
+
+function renvoieDernier2 (tab){
+    return tab[tab.length-1];
+ }
+ console.log(renvoieDernier2([1,2,3,4,5,55]));
+
+ //exercice 19
+
+ function vérifierEgalité (x,y){
+    if (x===y){
+        console.log("true");
+    }
+
+    else {
+        console.log("false");
+    }
+}
+
+vérifierEgalité (2,2);
+
+//exercice 20
+
+function chainus (chain){
+    if (chain==''){
+    console.log('true');
+    }
+    else
+    console.log('false');
+}
+
+chainus ('');
